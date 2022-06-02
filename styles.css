@@ -148,14 +148,9 @@ p {
 }
 
 #skills-title {
-  position: relative;
-  top: -80px;
+  padding-bottom: 80px;
 }
 
-#projects-title {
-  position: absolute;
-  top: 1100px;
-}
 
 #video-wrapper {
   flex-direction: column;
@@ -164,6 +159,7 @@ p {
 .project {
     margin-top: 100px;
     text-align: center;
+    width: 50%;
 }
 
 hr {
@@ -192,8 +188,7 @@ hr {
 }
 
 #contact-title {
-    position: relative;
-    top: -25px;
+    padding-bottom: 30px;
 }
 
 #email {

@@ -4,7 +4,6 @@ const projectsLink = document.getElementById("projects");
 const contactLink = document.getElementById("contact");
 
 const link = (e) => {
-    console.log(`${e.target.id}-wrapper`)
     document.getElementById(`${e.target.id}-wrapper`).scrollIntoView({block: "start", inline: "nearest", behavior: "smooth"});
 }
 
